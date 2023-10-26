@@ -63,6 +63,8 @@ PCの音響信号から変調周波数を決定するのも16kHzサンプリン�
 ![部品セットずみ(7805)](images/nano_ESP32_bridge_4.png)  
 ![部品セットずみ(DC-DCモジュール)](images/nano_ESP32_bridge_5.png)  
 ![メイン基板に取り付け済み](images/nano_ESP32_bridge_6.png)  
+回路図は，  
+![回路図pdfファイル](images/nano-ESP32_bridge.pdf)  
 JLCPCB用のガーバーファイルは"nano_ESP32_bridge_gerber.zip"です．  
 また， Kicadのファイルは"nano_ESP32_bridge_kicad.zip"です．  
 
