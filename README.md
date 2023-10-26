@@ -97,7 +97,7 @@ JLCPCB用のガーバーファイルは"nano_ESP32_bridge_gerber.zip"です．
 	"BTstack"をインストールします．  
 	https://github.com/bluxekitchen/btstack
 	ESP32用にセットアップします．  
-	adx-esp32フォルダのファームウェアをビルドし，ESP32にフラッシュします．  
+	ADX-S_ESP32フォルダのファームウェアをビルドし，ESP32にフラッシュします．  
 	ファームウエアの書き込みの際には，メイン基板から取り外して行った方がやり易いと思います． 
 
 	PCにおいて，bluetoothデバイスの追加で，"HFP HF Demo xx:xx:xx:xx:xx:xx"に接続して下さい(xx:xx:...は機器のアドレス)．  
