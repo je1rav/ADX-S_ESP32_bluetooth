@@ -42,8 +42,8 @@ PCの音響信号から変調周波数を決定するのも16kHzサンプリン�
 	ADX-SのATT, AGC改造をお薦めします(改造を行ったADX-Sでテストしました．)．  
 	ESP32 Devkitを逆さ向きで取り付けるため，R5,R6,R7,R8,R9,R10,R11,R15を横に寝かせる必要があります．  
 	寝かせないと，ESP32とショートしてしまします(ショートが心配な方はテープなどで処理して下さい)．  
-![メイン基板表側_ジャンパー配線](images/nano_ESP32_bridge_1.png)  
-![メイン基板裏側](images/nano_ESP32_bridge_2.png)  
+![メイン基板表側_ジャンパー配線](images/nano_ESP32_bridge_1.png)メイン基板表側  
+![メイン基板裏側](images/nano_ESP32_bridge_2.png)メイン基板裏側  
 
 ### 2．Arduino NanoピンコネクタからESP32 Devkitピンコネクタへの変換基板の製作
 	Arduino NanoピンコネクタにESP32 Devkitを取り付けるための変換基板を作りました． 
@@ -59,10 +59,10 @@ PCの音響信号から変調周波数を決定するのも16kHzサンプリン�
 	シリーズレギュレーターは発熱します．DC-DCモジュールは高効率ですが少し高価です． 
 	CD2003Pの受信信号をESP32のADCで取り込んでいますが，感度が不足したので，2N3904を使った1石アンプを付けています． 
 	メイン基版につけるときは，Arduino Nanoピンコネクタが無い側にスペーサ(11mmが最適)をつけて下さい． 
-![ブリッジ基板](images/nano_ESP32_bridge_3.png)  
-![部品セットずみ(7805)](images/nano_ESP32_bridge_4.png)  
-![部品セットずみ(DC-DCモジュール)](images/nano_ESP32_bridge_5.png)  
-![メイン基板に取り付け済み](images/nano_ESP32_bridge_6.png)  
+![ブリッジ基板](images/nano_ESP32_bridge_3.png)ブリッジ基板  
+![部品セットずみ(7805)](images/nano_ESP32_bridge_4.png)部品セットずみ(7805)  
+![部品セットずみ(DC-DCモジュール)](images/nano_ESP32_bridge_5.png)部品セットずみ(DC-DCモジュール)  
+![メイン基板に取り付け済み](images/nano_ESP32_bridge_6.png)メイン基板に取り付け済み  
 回路図は，  
 ![回路図pdfファイル](images/nano-ESP32_bridge.pdf)  
 JLCPCB用のガーバーファイルは"nano_ESP32_bridge_gerber.zip"です．  
