@@ -69,7 +69,8 @@ JLCPCB用のガーバーファイルは"nano_ESP32_bridge_gerber.zip"です．
 また， Kicadのファイルは"nano_ESP32_bridge_kicad.zip"です．  
 
 ### 3．ファームウェア  
-	esp-idf(ver4.4.5) + BTstack (サンプルプログラム"hfp_hf_demo"を利用)環境で作っています．  
+	ADX-S_ESP32フォルダ内にソースファイルが入っています．  
+ 	esp-idf(ver4.4.5) + BTstack (サンプルプログラム"hfp_hf_demo"を利用)環境で作っています．  
 	Bluetooth Audio部分は，”hfp_hf_demo”ほぼそのままですが，16kHzサンプリング(HD Voice, mSBC)での通信を無効にしています．   
 	Bluetooth AudioとADC間の音声信号のやりとりなどは，atomic14の以下のプログラムを元にしています．   
 	https://github.com/atomic14/esp32-hsp-hf
