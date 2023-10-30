@@ -649,6 +649,7 @@ void sco_demo_receive(uint8_t * packet, uint16_t size){
         byte_errors = 0;
         data_received = 0;
         packets = 0;
+        sco_demo_cvsd_close();     // for ADX transceiver (increase stability)
     }
 
     codec_current->receive(packet, size);
